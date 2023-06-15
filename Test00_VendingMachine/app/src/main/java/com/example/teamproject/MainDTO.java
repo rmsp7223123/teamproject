@@ -1,4 +1,6 @@
-package com.example.test00_vendingmachine;
+package com.example.teamproject;
+
+import java.util.ArrayList;
 
 public class MainDTO {
     private String name;
