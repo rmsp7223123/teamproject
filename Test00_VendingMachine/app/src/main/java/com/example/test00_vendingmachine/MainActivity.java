@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 package com.example.test00_vendingmachine;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,10 +14,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.example.test00_vendingmachine.R;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+=======
+>>>>>>> main
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button btn_insert, btn_change, btn_add;
@@ -46,12 +52,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v.getId()==R.id.btn_insert) {
+<<<<<<< HEAD
             int[] arr = {10000, 5000, 1000, 500, 100};
             try {
                 int addMoney = Integer.parseInt(edt_insert.getText().toString());
                 int charge = addMoney;
                 for (int i = 0; i < arr.length; i++) {
                     charge = charge % arr[i];
+=======
+            int[] arr = {100, 500, 1000, 5000, 10000};
+            try {
+                int addMoney = Integer.parseInt(edt_insert.getText().toString());
+                int tempMoney = addMoney;
+                int charge = addMoney;
+                for (int i = 0; i < arr.length; i++) {
+                    tempMoney = charge / arr[i];
+                    charge = charge % arr[i];
+                    if (charge == 0) {
+                        break;
+                    }
+>>>>>>> main
                 }
                 if (charge != 0) {
                     Toast.makeText(MainActivity.this, "반환됨. 금액을 다시 입력해주세요.", Toast.LENGTH_SHORT).show();
