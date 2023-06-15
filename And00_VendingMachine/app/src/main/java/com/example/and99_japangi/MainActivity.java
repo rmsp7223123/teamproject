@@ -12,9 +12,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button btn_insert, btn_change;
+    Button btn_insert, btn_change, btn_1;
     EditText edt_insert;
     int money;
     TextView change;
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         change = findViewById(R.id.change);
         btn_insert.setOnClickListener(this);
         btn_change.setOnClickListener(this);
+
+
     }
 
     @Override
