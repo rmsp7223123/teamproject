@@ -18,7 +18,6 @@ output.json
 # IntelliJ
 *.iml
 .idea/
-.idea/*
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
@@ -48,4 +47,3 @@ google-services.json
 .externalNativeBuild
 .cxx
 local.properties
-Test00_VendingMachine/.idea/*
