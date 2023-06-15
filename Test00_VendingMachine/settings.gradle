@@ -12,5 +12,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+<<<<<<< HEAD
 rootProject.name = "Test00_VendingMachine"
+=======
+rootProject.name = "TeamProject"
+>>>>>>> origin/yuju
 include ':app'
