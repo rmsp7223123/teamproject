@@ -1,5 +1,5 @@
 
-package com.example.and99_japangi;
+package com.example.test00_vendingmachine;
 
 import androidx.appcompat.app.AppCompatActivity;
 
