@@ -1,5 +1,5 @@
 
-package com.example.and99_japangi;
+package com.example.test00_vendingmachine;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.test00_vendingmachine.R;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
