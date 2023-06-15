@@ -47,16 +47,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn4 = findViewById(R.id.btn4);
 
         btn1.setOnClickListener(this);
-        text_cost1.setText(dto.get(0).getCost()+"원");
+        text_cost1.setText(dto.get(0).getName()+dto.get(0).getCost()+"원");
         text_cnt1.setText(dto.get(0).getCnt()+"개 남음");
         btn2.setOnClickListener(this);
-        text_cost2.setText(dto.get(1).getCost()+"원");
+        text_cost2.setText(dto.get(1).getName()+dto.get(1).getCost()+"원");
         text_cnt2.setText(dto.get(1).getCnt()+"개 남음");
         btn3.setOnClickListener(this);
-        text_cost3.setText(dto.get(2).getCost()+"원");
+        text_cost3.setText(dto.get(2).getName()+dto.get(2).getCost()+"원");
         text_cnt3.setText(dto.get(2).getCnt()+"개 남음");
         btn4.setOnClickListener(this);
-        text_cost4.setText(dto.get(3).getCost()+"원");
+        text_cost4.setText(dto.get(3).getName()+dto.get(3).getCost()+"원");
         text_cnt4.setText(dto.get(3).getCnt()+"개 남음");
 
     }

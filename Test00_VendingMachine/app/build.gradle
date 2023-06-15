@@ -3,19 +3,11 @@ plugins {
 }
 
 android {
-<<<<<<< HEAD
-    namespace 'com.example.test00_vendingmachine'
-    compileSdk 33
-
-    defaultConfig {
-        applicationId "com.example.test00_vendingmachine"
-=======
     namespace 'com.example.teamproject'
     compileSdk 33
 
     defaultConfig {
         applicationId "com.example.teamproject"
->>>>>>> origin/yuju
         minSdk 24
         targetSdk 33
         versionCode 1
