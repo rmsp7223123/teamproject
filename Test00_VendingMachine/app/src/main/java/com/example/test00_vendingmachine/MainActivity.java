@@ -1,6 +1,7 @@
 package com.example.test00_vendingmachine;
 
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -18,6 +19,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     ArrayList<MainDTO> dto = new ArrayList<>();
 
+=======
+
+public class MainActivity extends AppCompatActivity {
+>>>>>>> parent of 606d4d4 (AS)
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
