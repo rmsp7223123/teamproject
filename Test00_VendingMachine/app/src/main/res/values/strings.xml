@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Test00_VendingMachine</string>
+=======
+    <string name="app_name">TeamProject</string>
+>>>>>>> origin/yuju
 </resources>
