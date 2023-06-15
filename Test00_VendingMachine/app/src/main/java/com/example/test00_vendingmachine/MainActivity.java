@@ -38,17 +38,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         if(v.getId()==R.id.btn_insert) {
-            int[] arr = {100, 500, 1000, 5000, 10000};
+            int[] arr = {10000, 5000, 1000, 500, 100};
             try {
                 int addMoney = Integer.parseInt(edt_insert.getText().toString());
-                int tempMoney = addMoney;
                 int charge = addMoney;
                 for (int i = 0; i < arr.length; i++) {
-                    tempMoney = charge / arr[i];
                     charge = charge % arr[i];
-                    if (charge == 0) {
-                        break;
-                    }
                 }
                 if (charge != 0) {
                     Toast.makeText(MainActivity.this, "반환됨. 금액을 다시 입력해주세요.", Toast.LENGTH_SHORT).show();
