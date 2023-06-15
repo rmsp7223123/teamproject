@@ -1,158 +1,315 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> origin/yuju
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
-    <Button
-        android:id="@+id/btn_add"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="버튼"
-        />
-
+<<<<<<< HEAD
     <TextView
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="자판기 프로그램"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/dirnk1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="130dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="콜라 1000원"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="10개 남음"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_gravity="center"
+                android:text="주문하기"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/drink2"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="사이다 1000원"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="10개 남음"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_gravity="center"
+                android:text="주문하기"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/drink3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="콜라 1000원"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="10개 남음"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_gravity="center"
+                    android:text="주문하기"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/drink4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="사이다 1000원"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:text="10개 남음"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <Button
+                    android:layout_gravity="center"
+                    android:text="주문하기"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="자판기 프로그램"
-        android:gravity="center"
-        android:textSize="30dp"
-        />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"/>
-        <TextView
-            android:text="어쩌고"
-            android:id="@+id/drink1_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="저쩌고"
-            android:id="@+id/drink1_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/btn_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="주문 하기" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"/>
-        <TextView
-            android:text="어쩌고"
-            android:id="@+id/drink2_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="저쩌고"
-            android:id="@+id/drink2_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/btn_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="주문 하기" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"/>
-        <TextView
-            android:text="어쩌고"
-            android:id="@+id/drink3_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="저쩌고"
-            android:id="@+id/drink3_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/btn_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="주문 하기" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher_background"/>
-        <TextView
-            android:text="어쩌고"
-            android:id="@+id/drink4_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:text="저쩌고"
-            android:id="@+id/drink4_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/btn_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="주문 하기" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1" >
-
-
+        android:orientation="horizontal">
         <EditText
             android:id="@+id/edt_insert"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="금액을 입력하세요."/>
+            android:layout_weight="3"
+            android:hint="금액을 입력하세요."
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
         <Button
             android:id="@+id/btn_insert"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="금액 입력" />
-        <TextView
-            android:id="@+id/change"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="잔액 : 0원"
-            />
-        <Button
-            android:id="@+id/btn_change"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="잔돈 반환" />
+            android:layout_weight="1"
+            android:text="입력"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
 
 
     </LinearLayout>
+        <TextView
+            android:id="@+id/change"
+            android:layout_marginLeft="5dp"
+            android:text="잔액 : 10000원"
+=======
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="자판기 프로그램"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text_cost1"
+        android:text="금액"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text_cnt1"
+        android:text="재고"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="주문하기"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/text_money1"
+        android:text="잔액"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_cost2"
+            android:text="금액"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_cnt2"
+            android:text="재고"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="주문하기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_money2"
+            android:text="잔액"
+>>>>>>> origin/yuju
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+<<<<<<< HEAD
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/btn_change"
+            android:layout_margin="10dp"
+            android:text="잔돈 반환"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/btn_add"
+            android:text="관리자 버튼"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_cost3"
+            android:text="금액"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_cnt3"
+            android:text="재고"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="주문하기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_money3"
+            android:text="잔액"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/text_cost4"
+            android:text="금액"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_cnt4"
+            android:text="재고"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:text="주문하기"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_money4"
+            android:text="잔액"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+>>>>>>> origin/yuju
 </LinearLayout>
