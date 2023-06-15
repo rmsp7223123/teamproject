@@ -48,4 +48,4 @@ google-services.json
 .externalNativeBuild
 .cxx
 local.properties
-Test00_VendingMachine/.idea/
+Test00_VendingMachine/.idea/*
