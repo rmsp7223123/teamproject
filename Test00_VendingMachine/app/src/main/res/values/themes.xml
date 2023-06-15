@@ -1,9 +1,17 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+<<<<<<< HEAD
     <style name="Base.Theme.Test00_VendingMachine" parent="Theme.Material3.DayNight.NoActionBar">
+=======
+    <style name="Base.Theme.TeamProject" parent="Theme.Material3.DayNight.NoActionBar">
+>>>>>>> origin/yuju
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+<<<<<<< HEAD
     <style name="Theme.Test00_VendingMachine" parent="Base.Theme.Test00_VendingMachine" />
+=======
+    <style name="Theme.TeamProject" parent="Base.Theme.TeamProject" />
+>>>>>>> origin/yuju
 </resources>
